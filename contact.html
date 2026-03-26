@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <meta name="description" content="AIさんいん - お問い合わせ。AI研修に関するご相談・お問い合わせはこちらから。">
+  <title>お問い合わせ | AIさんいん</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+JP:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!-- Header -->
+<header class="header">
+  <div class="container">
+    <a href="index.html" class="logo"><img src="assets/images/logo.png" alt="AIさんいん"></a>
+    <nav class="nav-d">
+      <a href="index.html">ホーム</a>
+      <a href="overview.html">概要</a>
+      <a href="about.html">AIさんいんについて</a>
+      <a href="course.html">コース紹介</a>
+      <a href="instructor.html">講師紹介</a>
+      <a href="achievements.html">業務効率化</a>
+      <a href="news.html">ニュース</a>
+      <a href="contact.html" class="nav-d__cta active">お問い合わせ</a>
+    </nav>
+    <button class="nav-btn" aria-label="メニュー"><i></i><i></i><i></i></button>
+  </div>
+</header>
+<nav class="nav-m">
+  <a href="index.html">ホーム</a><a href="overview.html">概要</a><a href="about.html">AIさんいんについて</a>
+  <a href="course.html">コース紹介</a><a href="instructor.html">講師紹介</a>
+  <a href="achievements.html">業務効率化について</a><a href="news.html">ニュース</a><a href="contact.html">お問い合わせ</a>
+</nav>
+
+<!-- Page Hero -->
+<section class="page-hero">
+  <div class="page-hero__bg" style="background-image:url('assets/images/chatbot.png');"></div>
+  <div class="page-hero__blobs">
+    <div class="hero__blob hero__blob--1"></div>
+    <div class="hero__blob hero__blob--2"></div>
+  </div>
+  <div class="container">
+    <p class="page-hero__label">Contact</p>
+    <h1 class="page-hero__title">お問い合わせ</h1>
+  </div>
+</section>
+
+<!-- Contact Form -->
+<section class="sec">
+  <div class="container" style="max-width:720px;">
+    <div class="notice rv">※当フォームは、弊社サービス・業務に関するお問い合わせ専用です。営業・広告・勧誘・調査・アンケート・自動送信プログラムなどによる送信は固くお断りいたします。</div>
+    <form class="rv" action="#" method="post">
+      <div class="form-group">
+        <label class="form-label">会社名<span class="req">*</span></label>
+        <input type="text" class="form-input" name="company" required placeholder="例：株式会社タイヨー通信">
+      </div>
+      <div class="form-group">
+        <label class="form-label">担当者名<span class="req">*</span></label>
+        <input type="text" class="form-input" name="name" required placeholder="例：山田 太郎">
+      </div>
+      <div class="form-group">
+        <label class="form-label">メールアドレス<span class="req">*</span></label>
+        <input type="email" class="form-input" name="email" required placeholder="例：info@example.com">
+      </div>
+      <div class="form-group">
+        <label class="form-label">電話番号<span class="req">*</span></label>
+        <input type="tel" class="form-input" name="phone" required placeholder="例：0859-27-1211">
+      </div>
+      <div class="form-group">
+        <label class="form-label">お問い合わせ内容<span class="req">*</span></label>
+        <textarea class="form-textarea" name="message" required placeholder="お問い合わせ内容をご記入ください"></textarea>
+      </div>
+      <div style="text-align:center;margin-top:2rem;">
+        <button type="submit" class="btn btn--primary">お問い合わせを送信<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M12 5l7 7-7 7"/></svg></button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- Office Info -->
+<section class="sec sec--alt">
+  <div class="container">
+    <div class="sec__head sec__head--c rv">
+      <p class="sec__label"><span class="line"></span>Office<span class="line"></span></p>
+      <h2 class="sec__title">拠点案内</h2>
+    </div>
+    <div class="office-grid rv">
+      <div class="office-card">
+        <h3 class="office-card__name">本社</h3>
+        <div class="office-card__info">
+          鳥取県西伯郡日吉津村日吉津45番地3<br>
+          TEL：<a href="tel:0859-27-1211">0859-27-1211</a>
+        </div>
+      </div>
+      <div class="office-card">
+        <h3 class="office-card__name">出雲営業所</h3>
+        <div class="office-card__info">
+          島根県出雲市天神町52番地<br>
+          TEL：<a href="tel:0859-27-1211">0859-27-1211</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+    <div class="footer-main">
+      <div>
+        <div class="footer__logo"><img src="assets/images/logo-w.png" alt="AIさんいん"></div>
+        <div class="footer__info">
+          株式会社タイヨー通信 / AIさんいん<br>
+          本社：鳥取県西伯郡日吉津村日吉津45番地3<br>
+          出雲営業所：島根県出雲市天神町52番地<br>
+          TEL：<a href="tel:0859-27-1211">0859-27-1211</a><br>
+          MAIL：<a href="mailto:iwanari@taiyo-jp.com">iwanari@taiyo-jp.com</a>
+        </div>
+      </div>
+      <div class="footer-nav">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="index.html">ホーム</a></li>
+          <li><a href="overview.html">概要</a></li>
+          <li><a href="about.html">AIさんいんについて</a></li>
+          <li><a href="course.html">コース紹介</a></li>
+          <li><a href="instructor.html">講師紹介</a></li>
+          <li><a href="achievements.html">業務効率化</a></li>
+          <li><a href="news.html">ニュース</a></li>
+          <li><a href="contact.html">お問い合わせ</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">&copy; 2026 AIさんいん / 株式会社タイヨー通信. All rights reserved.</div>
+  </div>
+    <div class="group-sites">
+      <p class="group-sites__label">Taiyo Tsushin Group</p>
+      <div class="group-sites__grid">
+        <a href="../taiyo-tsushin-web/index.html" class="group-sites__card">
+          <div class="group-sites__icon group-sites__icon--taiyo">T</div>
+          <div class="group-sites__info"><span class="group-sites__name">タイヨー通信</span><span class="group-sites__sub">業務用無線・ネットワーク・防犯カメラ</span></div>
+        </a>
+        <a href="../future-tec-web/index.html" class="group-sites__card">
+          <div class="group-sites__icon group-sites__icon--ft">F</div>
+          <div class="group-sites__info"><span class="group-sites__name">フューチャーテック</span><span class="group-sites__sub">防災・通信・セキュリティ技術</span></div>
+        </a>
+        <a href="#" class="group-sites__card is-current">
+          <div class="group-sites__icon group-sites__icon--ai">AI</div>
+          <div class="group-sites__info"><span class="group-sites__name">AIさんいん</span><span class="group-sites__sub">AI研修・業務効率化</span></div>
+        </a>
+      </div>
+    </div>
+</footer>
+
+<button class="scroll-top" aria-label="トップへ"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 15l-6-6-6 6"/></svg></button>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
